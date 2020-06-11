@@ -49,6 +49,3 @@ if(!empty($_POST['cep'])){
 	</body>
 </html>
 
-<!-- Run on server -->
-<!-- sudo apt-get install php -->
-<!-- php -S localhost:9000 -->
