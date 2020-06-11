@@ -36,7 +36,7 @@ if(!empty($_POST['cep'])){
 		<?php 
 			if(isset($result)){
 				if(!$result->erro){
-					echo('<strong class="sucesso">Endereco nao encontrado</strong>');
+					echo('<strong class="sucesso">Endereco encontrado</strong>');
 					echo(isset($cep) ? "<h3>Cep informado: $cep</h3>" : '');
 					echo("<h3>Rua: $result->logradouro</h3>");
 					echo("<h3>Bairro: $result->bairro</h3>");
